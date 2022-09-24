@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #030331;  
+}
+
+.card {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #1F4E8C, #194078, white);
+  border: solid #fff 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-card {
+  width: 5rem;
+}
+
+.card > h1 {
+  width: 100%;
+  height: 25%;
+  margin-left: 1rem;
+  color: #194078;
+}
+
+.chips {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.chips > .nfc {
+  width: 4rem;
+  filter: invert(1);
+}
+
+.chips > .chip {
+  width: 4rem;
+  border-radius: 10px;
+  border: groove 2px #a1c7d8;
+}
+
+.chips > p {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.footer-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.info-card, .logo-card {
+  width: 50%;
+}
+
+.info-card {           
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2rem 0 0 1rem;
+}
+
+.info-card > h2 {
+  font-size: 1.5rem;  
+  color: #04152c;
+}
+
+.info-card > .expirate {
+  color: #ffff;
+  font-size: 0.8rem;
+}
+
+.info-card > .date-expirate {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.logo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;  
+  margin: 0 0.5rem 0 0;
+}
+
+
+
+
+
+
+
+
